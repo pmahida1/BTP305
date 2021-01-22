@@ -1,0 +1,19 @@
+// Name: Parth Mahida 
+// Seneca Student ID: 140 172 180
+// Seneca email: pmahida1@myseneca.ca
+// Date of completion: 19 November, 2020
+//
+// I confirm that I am the only author of this file
+//   and the content was created entirely by me.
+
+
+Hello Cornel
+
+I enjoyed doing all these three workshops. I really hard time in ms3, but at the same time i learnt a lot. While degubbing my ms3 i figured that something is wrong with my customer
+constructor. I decided to change it in the modules where it was neccessary to do so. It work perfectly fine after changing everything else. 
+
+I also enjoyed re-watching your recorded lectures, I felt this class was much better online than in class just because i got to re-watch the lectures.
+
+Thank you very much for providing great lecture. 
+Have great christmas Holiday!!!
+Mary Christmas in advance.  

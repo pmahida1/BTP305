@@ -1,0 +1,31 @@
+Name:Parthraj Mahida
+Student Number: 140 172 180
+Email: pmahida1@myseneca.ca
+Date Of Complition: oct 24 2020
+
+
+
+   Lambda Expression is used for encapsulate a few lines of code that are passed to algorithms there are 6 parts of lambda expressions. 1) capture clause. It can also access or capture 
+   variables from surrounding scope. Empty capture clause, shows that the body of the lambda expression accesses no variables in the enclosing scope.2) parameter list optional 3) mutable
+   specification optional 4) exception specification optional. 5) trailing return type. 6) lambda body.
+
+
+  On other hand functor are objects that can be treated as though they are function or function pointer. It is used along with stl. it points to executable code at a particular piece of 
+  memory, rather than a data values as with other pointers. Functionr pointers have some problems, such as they are unefficient when it comes to compared with functors. the compilers 
+  will often pass them as raw pointers and as such the compiler will struggle to inline the code. It is also not flexicble at storing state. The main benefit of using functors is that 
+  they are objectss and  hence can contain state, either statically across all instances of the function objects or individually on a particular instances. 
+
+
+ 1). Well user will usually make an abstract class add members in that class and do default constructor. 
+
+ 2). I would have validation condition where it will check if the file ( using try and catch) is open or not and whatever the result for validation it will show up on the screen. 
+For part 2 (at home portion) I did validation by throwing exception which means that the code will throws an exception when a problem is detected, which lets users to create and 
+error and it will also inform client. When it comes to use try and catch, the statement will allows users to define a block of code to be executed, if an error occurs in the try block,
+display this message. 
+ 3). Basically I would declare two separate ifstream object that would read two different files in one functions.
+ 4). Default construct can be removed because, if users want to make the object to empty state, they can use custom constructor to do it. 
+
+
+
+
+

@@ -1,0 +1,37 @@
+// Name: Parthraj Mahida
+// Seneca Student ID: 140 172 180
+// Seneca email: pmahida1@myseneca.ca
+// Date of completion: 11 Oct 2020
+//
+// I confirm that the content of this file is created by me,
+//   with the exception of the parts provided to me by my professor.
+
+What i learnt in this workshop:
+By doing this workshop i have learnt and did recall some stuff about template. A template is a simeple and very powerfull tool in c++. It is basically a blueprint for creating a 
+generic class or function. I can use templates to define functions as well as classes. To define template i have to use keyword template <typename T>. One another thing i have learnt
+that i can also have template classes just like template functions, to define template class it is exactly the same except there is class inside <> brackets. I can also define more 
+than one generic data type by using a comma separated list. I can also specify default value for template arguments to template. Template is example of polymorphism feature of oop it 
+is used when multiple functions do identical operations.
+
+Another thing i have learnt about template is about template specialization. Class template specializing allows us to specialize a template class for particular data type. As per in 
+this workshop i had to use class template specialization to Pairsummable() function in a way where it can accept any variable  data type that i put in. Class template specializations are treated
+as completely independent classes, even though they are allocated in the same way as the template class. This means that we can change anything and everything about specialization class,
+including the way it's implemented and even the functions it makes public, just as if it were an independent class. To specialize template i have to start off with template<>. Template 
+keyword tell compiler that what follows is templated and the empty angle braces means that they are not any template paramters. 
+
+I was having hard time with at home port for accumlate function, the for loop that i created it was calculating wrong value and i was getting wrong output, plus some of them were garbage 
+values. What i did was i did the whole function again, i caled the size_t object from a class, initialize that to 0 and compared it with size() functions ( it will compare whatever value
+size function has). Then increase it and store that value into variable. 
+
+
+1) The reason for specializing Pairsummable() member function because i do not know what kind of variable client would get. For example, if i only made a template where it would accept only 
+   double or int and if i did not specialize in way where it would accept any variable from the client then it would throw and exception error where it would say that this is not
+   compatible with the variable type. 
+
+2) The reason for specializing the initial value for a PairSummable because if we explicitly specialize the same function with certain parameters, we won't have any problems in terms 
+   of logic.
+
+3) The reason behind for defining the class variable outside the class definition any member fuction can access that variable, to manipulate the application in a way where it would 
+   be easy for client to play with it. If the class variable is inside the class non of the member function will able to access that variable. That is the disadvantage of having 
+   variable as private. 
+

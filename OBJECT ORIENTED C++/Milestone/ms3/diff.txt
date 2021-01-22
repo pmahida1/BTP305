@@ -1,0 +1,14 @@
+In line number 50 of your output:
+The output should be:
+[000000] CPU              - MISSING
+                          ^
+But your output is: 
+[000000] CPU                  - MISSING
+                          ^
+
+Unmatched character details:
+The character in column 27 is supposed to be:
+  [-] ASCII code(45)
+but you printed
+  [Space] ASCII code(32)
+

@@ -1,0 +1,22 @@
+Name: Parthraj Mahida 
+Student Id: 140 172 180
+Email Id: pmahida1@myseneca.ca	
+Date Of Complition: Oct 14 2020
+
+   While i was working on this workshop. I learnt about aggregation and composition. In aggregation member variable is part of the object/class. It can also belong to more than one object
+   class at a time. Aggregation is still part of the whole relationship, where the objects are contained within the whole module. When aggregation is created, the aggregation is not 
+   responsible for create the objects and samething goes with when it gets destroyed. For example; In this workshop there are tables available in the restaurant, that tables can be 
+   reserve for me and for other customer. However that table is not managed by the customer because that table got reserved before customer came to that restaurant, it is managed by the 
+   reservation. Moreover, that table still will be exist if the customer leaves the restaurant. Addition to that, customer does know what is their table number or where they reserved 
+   their table, but that table do not have no idea which customer has confirmed and got the confirmation. Therefore, this is an aggregate relationship.
+
+
+   The only difference between the composition and aggregation is they are semantic. In composition, user typically add object to the composition using normal member variables. In compo-
+   sition client side uses normal member variables. It can also use pointer members if the class handles object allocation and deallocation itself. It is also responsible for creating
+   and destructing of objects. 
+   
+
+   While i was doing at home portion for this workshop. I had to do some copy and move constructor, copy and move assignment operators. While i was working on those and other special 
+   functions and operators, i notice couple of things. Whenever there is customer make reservation or cancels the reservation, confirmation class need access to the reservervation class
+   because that is how it will update the information otherwise it will not be able to update the information. 
+

@@ -1,0 +1,33 @@
+/*
+Name: Parthraj Mahida
+Email: pmahida1@myseneca.ca
+Student Number: 140 172 180
+Date Completion: Oct - 03 - 2020
+I have done all the coding by myself and only copied the code that
+my professor provided to complete my workshops and assignments.
+*/
+
+Copy constructor are used to initialize a class by making copy of an object of the same class. It is used to copy one class to  another existing class. By default c++ will provide a 
+copy constructor and copy assignment operator if ons is not explicitly provided. One of the negative point for copy constructor is it provided shallow copy which is bad for claases 
+because it will cause a problem for class that allocate dynamic memory. To avoid that classes should deal with dynamic memory should override these functions to do deep copies.
+
+Copy constructors take lvalue reference as an arguemnt. It also create a new object from passed object by copying each and every item into a new memory location. Copy constructor give
+bad performance compared to move constructors, because it uses lot of new memory allocation for new object. Copy constructor does not make any change to passed object, which passed ob-
+ject can be used after copy operations also.
+
+Move constructors are added which can improve any code's performance drastically. Move constructor is same as copy constructor which will create a new instance based on the passed
+object. the main purpose of move constructor is to avoid memory reallocation and use as many memory from the passed original object because the original object is about to be deleted
+as it has been provided as a temporary object.
+
+Move constructor take rvalue reference as an argument. It also create a new object by using as much memory from passed object. It gives better performance compared to copy constructor
+because it uses most of memory blocks from passed object. Since, move constructors utilizes memory block from passed obejct, it can't use object after move operation.
+
+While i was working on in lab portion i had to create array of records anonymous struct. Anonymous structures are also know as unnamed unions/structures as they do not have names. I
+also have learnt one thing that since they do not have name, direct object or member variables of them are not created and we use them in nested structure or unions. To create 
+anonymous structure i just have to put struct and structure is created. I can also directly access members. Most importantly it works only inside the scope where the anonymous union
+is defined. I have also recalled a about modifier, which i forgot. Modifier is a member function that allows for editing of the contents of a protected data member. Mutator does not 
+need return value. The problem i had with at home part was move assignment counstructor was storing garbage value in dynamically allocated memory. It was like memory leak. The mistake
+was doing is that i was deleting m_string before checking if its empty or not. I realized that ohh i should be deleting array after checking, so then i did fixed my code.
+
+One of thing i have learned while working on this workshop is move constructor must call from temporary object which is going to be destroyed. 
+

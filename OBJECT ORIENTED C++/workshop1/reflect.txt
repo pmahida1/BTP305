@@ -1,0 +1,24 @@
+Name: Parth Mahida 
+Student #: 140 172 180 
+Workshop 1 Reflection
+
+
+
+1) External linkage is visible to the linker from other files, which means it is globally visible and can be shared between translation units. User must use this keyword in a place/file
+   where it will be in one and only one translation unit (.cpp), so that it will have only one visible definition. The keyword extern implements external linkage.
+
+   Internal linkage is not visible outside the translation unit it is declared in. It is like private variable, the linker will only be able to use this symbol when processing the 
+   translation unit in which the linker was declared. To implement internal linkage use ketword static. 
+
+2) A static variables are a variable that is declared using the keyword static. It is allocated only one time and this is used for the entirely of the program. Whether there are multiples
+   functions or one, space for the static variables is allocated only once and the value of variable in the previous calls gets carried throug the next function call. 
+
+3) One of the first thing i did was, i had to change string size to unlimited. I did copy assignment operator and destructor. 
+   The reason for adding copy assignment operator is to allow me to use = to assign one instance to another. The reason behind adding destructor because object goes out of the scope. It has same
+   name as the class, precede by a tilde (~). 
+
+   While working on this workshop, i got to review and learn couple of things. Const is value that can't be change, addition to that including this keyword in the declaration informs the compiler
+   that it should reject any code that attempts to modify the value of the declared object. One of the new thing i got to learn about is that different way of writing main function. The default
+   is to int main ( ); Another way that i learnt is by passing paramaters in the main function, int main (int agrc, int *argv[]); First parameter of argc recieves the number of arguments supplied.
+   includes the name of the relocatable file. Second parameter of argv recieves the address of an array of pointers to strings. Each address identifies a string that hold one command-line
+   argument argv[0] recieves the address of the name of the relocatable file. argv[i] points ot string that holds the i-the command line argument.  

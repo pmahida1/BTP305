@@ -1,0 +1,37 @@
+Book.cpp:14:7: error: no declaration matches ‘void sdds::Book::trim(std::string&) const’
+   14 |  void Book::trim(string& src) const {
+      |       ^~~~
+Book.cpp:14:7: note: no functions named ‘void sdds::Book::trim(std::string&) const’
+In file included from Book.cpp:10:
+Book.h:17:8: note: ‘class sdds::Book’ defined here
+   17 |  class Book
+      |        ^~~~
+Book.cpp: In constructor ‘sdds::Book::Book(const string&)’:
+Book.cpp:24:3: error: ‘trim’ was not declared in this scope
+   24 |   trim(m_author = strBook.substr(start, end - start));
+      |   ^~~~
+Book.cpp:32:8: error: ‘m_country’ was not declared in this scope; did you mean ‘country’?
+   32 |   trim(m_country = strBook.substr(start, end - start));
+      |        ^~~~~~~~~
+      |        country
+Book.cpp:40:3: error: ‘m_year’ was not declared in this scope; did you mean ‘year’?
+   40 |   m_year = stoi(strBook.substr(start, end - start));
+      |   ^~~~~~
+      |   year
+Book.cpp:43:8: error: ‘m_desc’ was not declared in this scope
+   43 |   trim(m_desc = strBook.substr(start));
+      |        ^~~~~~
+Book.cpp: In member function ‘const string& sdds::Book::country() const’:
+Book.cpp:50:10: error: ‘m_country’ was not declared in this scope; did you mean ‘country’?
+   50 |   return m_country;
+      |          ^~~~~~~~~
+      |          country
+Book.cpp: In member function ‘const size_t& sdds::Book::year() const’:
+Book.cpp:53:10: error: ‘m_year’ was not declared in this scope; did you mean ‘year’?
+   53 |   return m_year;
+      |          ^~~~~~
+      |          year
+Book.cpp: In function ‘std::ostream& sdds::operator<<(std::ostream&, const sdds::Book&)’:
+Book.cpp:66:12: error: ‘const class sdds::Book’ has no member named ‘m_desc’
+   66 |    << book.m_desc << endl;
+      |            ^~~~~~

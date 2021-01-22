@@ -1,0 +1,29 @@
+Name: Parthraj Mahida
+Student Number: 140 17 180
+Email: pmahida1@myseneca.ca
+Date of Complition: Nov 14 2020
+
+
+1) I used find_if() in collection function. This STL algorithm allows programmer to search for the first element in a sequence that satisfies a particular condition. To use this algorithm
+   it is defined by iterators start (begin) and finish (end) and predicate function returns true or false. This function is usefull because it looks for specific field. For copy it is easy
+   to use because the compiler instally knows what to do based on that statement without having to reading or figuring out what the loop is doing. It is optimized for simple types. The 
+   algorithm sort is very efficient because other sorting algorithms is slower as the number of items to sort increase, the time require to performed algorithm sort increases logarithmically.
+   It is also simple to understand that other sorting algorithm. 
+
+2) Algorithm does not depend on any other loop, it is also easy to understand for any programmer. It is reuseable. It has it's own logical sequence so it is easy todebug. If there is any 
+   bugs it will break down into smaller pieces or steps therefore it is easier for programer to find the error and convert it into actual code. It makes programmer life much easier by 
+   coding efficiently and more simple code. It avoids lots of common errors, for example if programmer is using for loop, they have to make sure that it does stops at the right sequence 
+   and it behaves correctly when it suppose to.   
+
+3) I would create a try and catch exception, in that exception i would basically catch if client do misspelled a song name or enter any numeric value. It will throw an exception saying
+   invalid song name.
+
+While i was working on this workshop i learnt about standard template library, which is a set of c++ template class to provide common programming data and functions such as list,stack,
+arrays etc. It is a library of containers classes, algorithms and iterators. STL has 4 components.
+Algorithm is function template that define common operations to perform on ranges of elements in a sequence. It also accepts functions call as a argument range in the form of iterations 
+and apply. It apply to to containers, strings and built in arrays. It does not change the size or storage allocation of any container. 
+containers are classes stores objects of data. There are many containers, but  i learnt about vector, list, deque, arrays,forward_list, queue, priority_queue and stack. 
+functions are functions that overload the function call operator. Instances of such classes are defined as functions objects or functors.
+iterators. 
+I also learnt about wrapper class which is templates for creating callable objects. This kind of template include function or reference wrapper which gives access for copying and assigning
+of reference for functions as well as objects. One important thing i learnt about algorithm is, i have to #include <algorithm> 

@@ -1,0 +1,26 @@
+// Name: Parth Mahida 
+// Seneca Student ID: 140 172 180
+// Seneca email: pmahida1@myseneca.ca
+// Date of completion: November 19th 2020
+//
+// I confirm that I am the only author of this file
+//   and the content was created entirely by me.
+
+	By doing this workshop I have learned how to use a smart pointer to move an object instead of using a raw pointer.
+The advantage that smart pointer syntax provides is that the destructor is automatically called when an object goes out of scope, 
+so therefore we don't have to worry about cleaning up our resources or losing track of our pointers and not deallocating dynamic memory
+which would cause memory leaks in our program. Also, there is less code necessary when using a smart pointer. 
+
+For example when we used a raw pointer in our mergeRaw function we had to delete it before it went out of scope:
+
+Product* temp = new Product(desc[i].desc, price[j].price);
+temp->validate();
+priceList += temp;
+delete temp;
+
+when we used a smart pointer in our mergeSmart function we didn't have to delete it before it went out of scope:
+
+std::unique_ptr<Product> temp(new Product(desc[i].desc, price[j].price));
+temp->validate();
+priceList += temp;
+

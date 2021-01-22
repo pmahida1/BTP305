@@ -1,0 +1,29 @@
+// Name: Parth Mahida
+// Seneca Student ID: 140 172 180
+// Seneca email: pmahida1@myseneca.ca
+// Date of completion: November 2nd 2020
+//
+// I confirm that I am the only author of this file
+//   and the content was created entirely by me.
+
+One of the issues that caused me difficulty was doing the display differently for
+racecars and regular cars. I finally realized that I should put the endlin the autoshop display()
+and this fixed my problem.
+
+ Why do you need to deallocate the dynamically allocated memory in your vector?
+I need to deallocate the dynamically allocated memory becuase we are creating new instances
+of type vehicle and storing them in a vector, but every time we have a new we need a delete or else there
+will be a memory leak. Therfore we need to delete every member of the vector which is a new instance.
+So we put our delete in a for loop.
+
+When building an object from the input file, different things can go wrong: the record 
+represents an unknown type of vehicle, or record contains invalid data. How can the function loadData() 
+detect what went wrong? Can you think at another solution than the one you have implemented?
+We could have done if and else to check if something did not have the correct data.
+
+In this workshop you had to use std::list<sdds::Vehicle*> and std::vector<sdds::Vehicle*> to store a 
+collection of vehicles as pointers. Could you have used std::list<sdds::Vehicle> and std::vector<sdds::Vehicle>
+ instead? 
+No because we need it to point to the object.
+
+
